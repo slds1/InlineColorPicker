@@ -67,7 +67,7 @@ public enum ColorPickerStyle {
     case slim, expanded
 }
 
-fileprivate let availibleColors = [Color.blue, Color.cyan, Color.mint, Color.green, Color.yellow, Color.orange, Color.red, Color.purple, Color.indigo, Color.primary]
+fileprivate let availibleColors = [Color.blue, Color.cyan, Color.mint, Color.green, Color.yellow, Color.orange, Color.red, Color.accentColor, Color.indigo, Color.primary]
 
 public func GetColorByID(_ ID: Int) -> Color {
     return availibleColors[ID]
